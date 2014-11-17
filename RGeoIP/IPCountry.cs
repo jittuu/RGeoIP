@@ -7,10 +7,10 @@ namespace RGeoIP {
 
         public string MaxIPAddress { get; set; }
 
-        public double MaxIPNumber { get; set; }
+        public long MaxIPNumber { get; set; }
 
         public string MinIPAddress { get; set; }
 
-        public double MinIPNumber { get; set; }
+        public long MinIPNumber { get; set; }
     }
 }

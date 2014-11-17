@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CsvHelper">
+      <HintPath>..\packages\CsvHelper.2.8.4\lib\net40-client\CsvHelper.dll</HintPath>
+    </Reference>
     <Reference Include="StackExchange.Redis">
       <HintPath>..\packages\StackExchange.Redis.1.0.371\lib\net45\StackExchange.Redis.dll</HintPath>
     </Reference>
@@ -42,7 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GeoIP.cs" />
-    <Compile Include="Importer.cs" />
+    <Compile Include="GeoLiteLegacyMap.cs" />
+    <Compile Include="IPAddressExtensions.cs" />
     <Compile Include="IPCountry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
