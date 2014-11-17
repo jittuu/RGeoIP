@@ -17,7 +17,7 @@ namespace RGeoIP.Tests
             _geoIP = new GeoIP(() => _conn.GetDatabase());
             using (var reader = new StreamReader("GeoIPCountryWhois-small.csv"))
             {
-                _geoIP.ImportGeoLiteLegacy(reader).Wait();
+                _geoIP.ImportGeoLiteLegacyAsync(reader).Wait();
             }
         }
 

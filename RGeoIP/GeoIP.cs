@@ -16,7 +16,7 @@ namespace RGeoIP {
             _redis = redis;
         }
 
-        public async Task<int> ImportGeoLiteLegacy(TextReader reader)
+        public async Task<int> ImportGeoLiteLegacyAsync(TextReader reader)
         {
             var config = new CsvConfiguration();
             config.RegisterClassMap(new GeoLiteLegacyMap());

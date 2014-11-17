@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AAC45F
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{4008AD72-433D-4AD1-966B-F77AD41AA736}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{E02E9B25-7790-4D91-83BD-B23A335A0255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02E9B25-7790-4D91-83BD-B23A335A0255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02E9B25-7790-4D91-83BD-B23A335A0255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4008AD72-433D-4AD1-966B-F77AD41AA736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4008AD72-433D-4AD1-966B-F77AD41AA736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4008AD72-433D-4AD1-966B-F77AD41AA736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4008AD72-433D-4AD1-966B-F77AD41AA736}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
