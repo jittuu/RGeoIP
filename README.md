@@ -5,7 +5,10 @@ Store IP Ranges in Redis as sorted sets for fast lookup
 
 Installation
 ------------
-TODO: make nuget package
+You can download nuget package at https://www.nuget.org/packages/RGeoIP or simpily install from command line.
+```
+Install-Package RGeoIP
+```
 
 Usage
 -----
