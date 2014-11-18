@@ -36,3 +36,8 @@ Dependencies
 License
 -------
 [MIT](https://github.com/jittuu/RGeoIP/blob/master/LICENSE)
+
+Contribute
+----------
+
+If you find any bug, please file a bug in [Github Issue](https://github.com/jittuu/RGeoIP/issues). To hack RGeoIP, please fork this repo and send me a pull request.
